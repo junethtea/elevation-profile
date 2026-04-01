@@ -1,0 +1,28 @@
+[general]
+name=Elevation Profile
+qgisMinimumVersion=3.16
+qgisMaximumVersion=4.99
+description=High-Precision 2D Terrain Profiling Tool for RF Site Audit and Network Planning.
+version=1.9.0
+author=Jujun Junaedi
+email=jujun.junaedi@outlook.com
+license=GPL-2.0-or-later
+about=Elevation Profile is an essential tool for Network Planning and Optimization (NPO) Engineers and GIS professionals. It allows users to instantly generate highly accurate 2D elevation profiles directly from loaded DEM/Raster data. Key features include:
+    * Interactive Line Drawing: Draw a path on the map and instantly view the elevation cross-section to verify Line of Sight (LoS).
+    * Dynamic Terrain Smoothing: Adjust Sigma values on the fly to filter noise from raw DEM sources like AW3D30, DEMNAS, or SRTM.
+    * QGIS 4 Ready: Fully refactored to support PyQt6 while maintaining seamless backward compatibility with QGIS 3.x.
+    * Real-Time Summary: Automatically calculates total distance, minimum, maximum, and average elevation.
+    * High-Res Export: Export elevation profiles to PNG or scalable SVG formats for professional technical reporting.
+    Bridging the gap between GIS contour data and RF Planning workflows, this tool makes physical terrain analysis faster and more intuitive without needing heavy RF software.
+tracker=https://github.com/junethtea/elevation-profile/issues
+repository=https://github.com/junethtea/elevation-profile
+homepage=https://github.com/junethtea/elevation-profile
+tags=elevation, profile, terrain, rf engineer, telecommunications, npo, network planning, dem, aw3d30, demnas, srtm
+category=Analysis
+icon=icon.png
+experimental=False
+deprecated=False
+changelog=
+    1.9.0 - Added QGIS 4.x (PyQt6) compatibility support. 
+    1.8.1 - Enhanced UI layout with a more compact and professional design. Added SVG export capabilities for high-resolution reporting.
+    1.8.0 - Implemented dynamic terrain smoothing (Sigma adjustment) and real-time interactive distance tracking.
