@@ -34,9 +34,11 @@ It allows engineers and GIS professionals to instantly visualize Line of Sight (
 * **Professional Recommendation:** Online APIs perform interpolation which might not perfectly reflect raw terrain anomalies. For highly critical engineering tasks (e.g., Telecom RF Coverage, precise Line-of-Sight planning), it is strongly recommended to use the **Offline DEM (Raster)** mode with verified local datasets.
 
 ## 📸 Screenshots
-<img width="646" height="468" alt="1" src="https://github.com/user-attachments/assets/e6d5cc09-4b93-4778-94f9-cb87cc57a9bd" />
+<img width="643" height="486" alt="Elevation" src="https://github.com/user-attachments/assets/5f7fac54-a0d0-4fe7-adb2-f258d7bef564" />
 
-<img width="448" height="356" alt="Help-Guide" src="https://github.com/user-attachments/assets/658b9812-8fe6-4489-be57-e176923e4344" />
+<img width="449" height="432" alt="Guide" src="https://github.com/user-attachments/assets/179595a1-8346-4e71-9883-3828efd40699" />
+
+
 
 ## 📥 Recommended Data Sources
 * **Global Data:** [JAXA ALOS World 3D (30m)](https://earth.jaxa.jp/en/)
