@@ -24,7 +24,6 @@ This **Standard Version** allows engineers and GIS professionals to instantly vi
 ## 🔒 PRO Features (Upgrade Required)
 Take your RF Site Audit and Network Planning to the next level! Upgrading to the **Pro Version** unlocks:
 * **📡 Advanced LoS Viewer:** Perform Microwave and Radio Link planning with interactive Tx/Rx tower heights, Earth bulge calculations, dynamic K-Factor presets, and 60% Fresnel Zone clearance visualization complete with smart critical obstacle detection.
-* **🌐 Online DEM APIs:** Access free global Online APIs (Open-Meteo 90m & OpenTopoData 30m SRTM) without needing to download local raster files.
 * **👥 Population Metrics:** Load demographic raster data to overlay a 1D population density profile directly onto the elevation chart and automatically estimate the total population within a corridor.
 * **🌗 Dual Theme UI:** Instantly toggle between Dark Mode and an elegant Ivory Light Mode.
 * **🎁 SPECIAL BONUS:** Get the **Embed Legend Pro** plugin for FREE with your upgrade!
@@ -42,6 +41,8 @@ Take your RF Site Audit and Network Planning to the next level! Upgrading to the
 4. **Export:** Click the "💾 Export" button to save your profile as a PNG or SVG file.
 
 ## 📸 Screenshots
+<img width="688" height="398" alt="Elevation Profile Standar" src="https://github.com/user-attachments/assets/78f8c601-b332-4717-9386-fd13c0a859fb" />
+
 
 ## 📥 Recommended Data Sources
 * **Global Data:** [JAXA ALOS World 3D (30m)](https://earth.jaxa.jp/en/)
