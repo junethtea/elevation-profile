@@ -501,8 +501,10 @@ class ElevationDockWidget(QDockWidget):
         
         <h3>User Guide</h3>
         <ul>
-            <li><b>Draw Line:</b> Click on map to trace path. Right-click to finish.</li>
-            <li><b>Smooth:</b> Adjust Sigma to reduce noise on Offline DEM.</li>
+            <li><b>1.Load Data: Ensure your local DEM/Raster layer is loaded in QGIS and selected in the dropdown menu. (Click the ↻ button to refresh the list).</li>
+            <li><b>2.Draw Line (📈): Click the "📈 Line" button, then click on the map to trace your path (Left-click to add points). Watch the live tooltips for Distance and Azimuth. Right-click to finish and generate the profile.</li>
+            <li><b>3.Adjust Smoothing: Change the "Smooth" value to filter out terrain noise (0 = Raw, 3 = DEMNAS, 5 = AW3D30, 20 = Smooth/SRTM).</li>
+            <li><b>4.Export: Click the "💾 Export" button to save your profile as a PNG or SVG file.</li>
         </ul>
         
         <hr>
