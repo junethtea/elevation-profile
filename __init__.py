@@ -7,7 +7,7 @@
 #  DESCRIPTION : High-Precision Terrain Profiling Tool for QGIS
 #  AUTHOR      : Jujun Junaedi
 #  EMAIL       : jujun.junaedi@outlook.com
-#  VERSION     : 1.9.0
+#  VERSION     : 1.9.3
 #  COPYRIGHT   : (c) 2023 by Jujun Junaedi
 #  LICENSE     : GPL-2.0-or-later
 #  MOTTO       : "Sebaik-baiknya Manusia adalah yang bermanfaat bagi sesama"

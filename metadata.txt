@@ -2,27 +2,39 @@
 name=Elevation Profile
 qgisMinimumVersion=3.16
 qgisMaximumVersion=4.99
-description=High-Precision 2D Terrain Profiling Tool for RF Site Audit and Network Planning.
-version=1.9.0
+description=High-Precision 2D Terrain Profiling Tool for QGIS.
+version=1.9.3
 author=Jujun Junaedi
 email=jujun.junaedi@outlook.com
 license=GPL-2.0-or-later
-about=Elevation Profile is an essential tool for Network Planning and Optimization (NPO) Engineers and GIS professionals. It allows users to instantly generate highly accurate 2D elevation profiles directly from loaded DEM/Raster data. Key features include:
-    * Interactive Line Drawing: Draw a path on the map and instantly view the elevation cross-section to verify Line of Sight (LoS).
-    * Dynamic Terrain Smoothing: Adjust Sigma values on the fly to filter noise from raw DEM sources like AW3D30, DEMNAS, or SRTM.
+about=Elevation Profile is an essential tool for Network Planning and Optimization (NPO) Engineers and GIS professionals. It allows users to instantly generate highly accurate 2D elevation profiles directly from loaded local DEM/Raster data. 
+
+    Features included in this Standard version:
+    * Offline DEM Profiling: Seamlessly generate profiles from local Raster files (e.g., DEMNAS, SRTM, AW3D30).
+    * Interactive Line Drawing: Draw a path on the map with real-time live tooltips displaying Azimuth and Distance.
+    * Dynamic Terrain Smoothing: Adjust Sigma values on the fly to filter noise from raw DEM sources.
     * QGIS 4 Ready: Fully refactored to support PyQt6 while maintaining seamless backward compatibility with QGIS 3.x.
     * Real-Time Summary: Automatically calculates total distance, minimum, maximum, and average elevation.
     * High-Res Export: Export elevation profiles to PNG or scalable SVG formats for professional technical reporting.
-    Bridging the gap between GIS contour data and RF Planning workflows, this tool makes physical terrain analysis faster and more intuitive without needing heavy RF software.
+
+    🔒 UPGRADE TO PRO VERSION:
+    Unlock advanced RF Audit tools and global datasets by upgrading to the Pro version! Pro features include:
+    * Advanced LoS Viewer: Microwave link planning with Tx/Rx tower heights, Earth bulge, K-Factor, and 60% Fresnel Zone clearance.
+    * Population Metrics: Extract 1D demographic density profiles and estimate total population within your corridor.
+    * Dual Mode UI: Instantly toggle between Dark Mode and elegant Ivory Light Mode.
+    * Bonus: Includes the Embed Legend Pro plugin for free!
 tracker=https://github.com/junethtea/elevation-profile/issues
 repository=https://github.com/junethtea/elevation-profile
 homepage=https://github.com/junethtea/elevation-profile
-tags=elevation, profile, terrain, rf engineer, telecommunications, npo, network planning, dem, aw3d30, demnas, srtm
+tags=elevation, profile, terrain, npo, dem, aw3d30, demnas, qgis 4
 category=Analysis
 icon=icon.png
 experimental=False
 deprecated=False
 changelog=
+    1.9.3 - Core Update: Enhanced UI with preview triggers for Advanced Line-of-Sight (LoS) Viewer, Population Metrics, and Online DEM. (Upgrade to Pro to unlock full access to these features).
+    1.9.2 - Core Update: UI enhancements and population buffer structure preview.
+    1.9.1 - Core Update: Added real-time Azimuth and Distance tooltips during map canvas drawing. Implemented dynamic kernel radius cap to prevent smoothing crashes on sparse data. Added comprehensive Help & UI previews for Dual Theme and Online DEM APIs.
     1.9.0 - Added QGIS 4.x (PyQt6) compatibility support. 
     1.8.1 - Enhanced UI layout with a more compact and professional design. Added SVG export capabilities for high-resolution reporting.
     1.8.0 - Implemented dynamic terrain smoothing (Sigma adjustment) and real-time interactive distance tracking.
